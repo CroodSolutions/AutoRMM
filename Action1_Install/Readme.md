@@ -6,7 +6,7 @@ Basic instructions for testing:
   - Click the Blue Install Agent button, and select Copy URL.
   - Start your testing process with a VM that has AutoIT installed. 
   - Edit the AutoIT Script to replace (Paste Install URL here) with the actual URL you just copied. 
-  - Save the file with a .au3 file extension.  
+  - Save the file with an .au3 file extension.  
   - Right click, and opt to compile this to an AutoIT executable. 
   - Run the exe as administrator on your test host, and watch for it to connect in the Action1 dashboard.  
 

@@ -2,7 +2,7 @@
 
 ---What is AutoRMM?---
 
-We are building AutoRMM to be a testing and red teaming framework, for covertly delivering and installing Remote Management and Screen Sharing tools, to begin to accurately simulate observed adversary activity in this area.  This is called AutoRMM not because it does anything automatically, but because we intend to start off using AutoIT and AutoHotKey, due to the evasiveness already noted in our other projects.  That said, we will not limit testing to exclusively these languages, in particular for the initial delivery and installation of RMM tools.  
+AutoRMM is a testing and red teaming framework we are building out, for covertly delivering and installing Remote Management and Screen Sharing tools, to begin to accurately simulate observed adversary activity in this area.  This is called AutoRMM not because it does anything automatically, but because we intend to start off using AutoIT and AutoHotKey, due to the evasiveness already noted in our other projects.  That said, we will not limit testing to exclusively these languages, in particular for the initial delivery and installation of RMM tools.  
 
 ---How is this different from BypassIT and AutoPwnKey---
 

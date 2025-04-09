@@ -38,3 +38,6 @@ Key contributors, both directly and because we are using building blocks from pr
 - [Kitsune-Sec](https://github.com/Kitsune-Sec)
 - [AnuraTheAmphibian](https://github.com/AnuraTheAmphibian)
 
+--- Key Resources / See Also ---
+
+A tremendous resource we discovered as we were working on this, which we strongly recommend, is the LOL RMM site: https://lolrmm.io/ 

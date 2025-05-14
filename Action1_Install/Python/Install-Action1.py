@@ -9,7 +9,6 @@ def ensure_requests_installed():
         import requests
         return True
     except ImportError:
-        print("Module 'requests' not found. Attempting to install...\n")
         try:
             subprocess.run(
                 [sys.executable, "-m", "pip", "install", "requests"],
@@ -18,8 +17,7 @@ def ensure_requests_installed():
             import requests
             return True
         except Exception as e:
-            print(f"Failed to install 'requests': {e}")
-            return False
+            raise RuntimeError(f"Failed to install 'requests': {e}")
 
 def is_admin():
     """Check if this script is running with administrator privileges."""
@@ -32,20 +30,26 @@ def run_as_admin():
     """Re-run this script with admin rights via ShellExecute."""
     script = os.path.abspath(sys.argv[0])
     params = " ".join(f'"{arg}"' for arg in sys.argv[1:])
-    ctypes.windll.shell32.ShellExecuteW(
+    result = ctypes.windll.shell32.ShellExecuteW(
         None, "runas", sys.executable, f'"{script}" {params}', None, 1
     )
+    if result <= 32:  # Check for errors in running as admin
+        raise RuntimeError("Failed to elevate to admin privileges.")
 
 def main():
-    # Elevation check
+    # Check if the script is already running as admin
     if not is_admin():
-        print("Not running as administrator. Elevating...\n")
-        run_as_admin()
-        sys.exit(0)
+        try:
+            run_as_admin()  # Attempt to run as admin
+        except RuntimeError as e:
+            print(e)
+            sys.exit(1)
 
     # Ensure 'requests' is installed
-    if not ensure_requests_installed():
-        print("Cannot continue without 'requests' library. Exiting.")
+    try:
+        ensure_requests_installed()
+    except RuntimeError as e:
+        print(e)
         sys.exit(1)
 
     import requests
@@ -56,12 +60,10 @@ def main():
     script_dir = os.path.dirname(os.path.abspath(__file__))
     download_path = os.path.join(script_dir, installer_name)
 
-    print("Downloading Action1 agent installer...")
     try:
         resp = requests.get(download_url, timeout=60)
         if resp.status_code != 200:
-            print(f"Download failed: HTTP {resp.status_code} - {resp.reason}")
-            sys.exit(1)
+            raise RuntimeError(f"Download failed: HTTP {resp.status_code} - {resp.reason}")
         with open(download_path, "wb") as f:
             f.write(resp.content)
     except Exception as e:
@@ -72,7 +74,6 @@ def main():
         print(f"Download failed. File not found at: {download_path}")
         sys.exit(1)
 
-    print("Installing Action1 agent silently...")
     proc = subprocess.run(
         ["msiexec", "/i", download_path, "/qn", "/norestart"],
         capture_output=True, text=True

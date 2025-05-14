@@ -1,3 +1,5 @@
+# This script will only work if running in the context of having admin rights.  
+
 import ctypes
 import os
 import subprocess

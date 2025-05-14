@@ -38,8 +38,6 @@ else
 ExitApp(0)
 
 
-; Helper: Writes text to the AHK v2 console or debug output
-
 ConsoleOutput(str) {
  
     OutputDebug str

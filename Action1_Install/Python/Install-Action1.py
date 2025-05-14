@@ -4,6 +4,7 @@ import ctypes
 import os
 import subprocess
 import sys
+import time
 
 def ensure_requests_installed():
     """Attempt to import 'requests'. If missing, run pip install requests."""
@@ -71,6 +72,8 @@ def main():
     except Exception as e:
         print(f"Download error: {e}")
         sys.exit(1)
+
+    time.sleep(3)
 
     if not os.path.exists(download_path):
         print(f"Download failed. File not found at: {download_path}")

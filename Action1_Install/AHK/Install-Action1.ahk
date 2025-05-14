@@ -17,6 +17,8 @@ if !DownloadFile(downloadUrl, downloadPath)
     ExitApp(1)
 }
 
+Sleep(3000)
+
 ConsoleOutput("Installing Action1 agent silently...")
 exitCode := RunWait('msiexec /i "' downloadPath '" /qn /norestart', , "Hide")
 
@@ -39,17 +41,10 @@ ExitApp(0)
 ; Helper: Writes text to the AHK v2 console or debug output
 
 ConsoleOutput(str) {
-    ; In AHK v2, use 'StdOut' if running from a console. Or fallback to DbgView, etc.
-    ; We'll just do a simple DbgView output approach:
+ 
     OutputDebug str
-    ; (Optionally you could do: FileAppend(str, '*')
-    ; but that would pollute your script's directory with logs.)
+ 
 }
-
-
-; Helper: DownloadFile(url, saveAs)
-; Uses ADODB.Stream to handle binary data in AHK v2
-; Returns true on success, false on failure
 
 DownloadFile(url, saveAs) {
     req := ComObject("MSXML2.XMLHTTP")

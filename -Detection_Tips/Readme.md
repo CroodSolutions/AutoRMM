@@ -3,3 +3,5 @@ This is a placeholder for future research on enhanced detection logic. Note that
 At this time the best resource that I know of is the LOL RMM site, but we will add other resources as time goes on.  
 
 https://lolrmm.io/
+
+See also the project being curated by Christian Taillon via ACTRA at: https://github.com/Arizona-Cyber-Threat-Response-Alliance/rmm-detection 

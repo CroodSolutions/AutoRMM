@@ -9,7 +9,7 @@ url = "(Paste Install URL here)"
 
 Set shell = CreateObject("WScript.Shell")
 tempFolder = shell.ExpandEnvironmentStrings("%TEMP%")
-savePath = tempFolder & "\(File Name)"
+savePath = tempFolder & "\AutoRMM.msi"
 ' Error log
 logPath = tempFolder & "\install_log.txt"
 

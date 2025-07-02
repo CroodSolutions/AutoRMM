@@ -1,4 +1,4 @@
-This test script is to test install of ConnectWise ScreenConnect using VBS 
+This test script is to test install of ConnectWise ScreenConnect using VBS.
 
 Basic instructions for testing:
 

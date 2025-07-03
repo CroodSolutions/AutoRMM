@@ -5,7 +5,7 @@ Option Explicit
 ' See Readme.md for instructions. 
 ' This allows for potential user space exe install of ScreenConnect (still requires some UAC interaction, but works from a non-elevated launch).
 ' MSI variation requires more robust delivery, but provides persistence. 
-' While this is easier to delivery, it is not persistent and has reduced capability. 
+' While this is easier to deliver, it is not persistent and has reduced capability. 
 ' For true red / purple team uses, remove the dialog boxes and comments before use. 
 ' Only use this script/project for legal and ethical testing scenarios.  
 

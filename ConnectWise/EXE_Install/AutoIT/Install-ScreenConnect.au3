@@ -1,4 +1,5 @@
 ; AutoIT script to download, extract, and run ScreenConnect client for remote support sessions. 
+; For AutoIT, you can install AutoIT or create a wrapper to run the script with the app exe, or create an AutoIT compiled executable.
 ; This script is for testing/red team purposes - use only for legal and ethical testing scenarios
 ; For red team/adversarial emulation, you may want to adapt to your specific purposes.  
 ; Paste your URL for ConnectWise ScreenConnect where it says (Paste Install URL here).  

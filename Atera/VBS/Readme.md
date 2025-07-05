@@ -15,6 +15,6 @@ Basic instructions for testing:
  - Red teamers will definitely want to find a more creative way to deliver this.
  - Combine with PE, UAC Bypass Techniques, or other testing mode for increased realism for adversary simulation.
 
-NOTE: Be sure to test the Splashtop integration for unattended remote access. The lack of user interaction or notification for this flow is definitely something to be aware of / to test and consider.  
+NOTE: Be sure to test the Splashtop integration for unattended remote access. The lack of user interaction or notification for this flow is definitely something to be aware of / to test and consider. To test this, simply select your device and opt to connect remotely (it will walk you through installing the Splashtop client on your host, and then it will use this to launch an unattended remote session).
 
 Remember to use all AutoRMM tools only for ethical and legal self assessment, testing, or administration.

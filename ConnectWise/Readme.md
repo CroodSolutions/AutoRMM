@@ -1,6 +1,6 @@
 ConnectWise ScreenConnect is a full-featured solution that provides tremendous remote access and management capabilities, surely contributing to their tremendous adoption rates and widespread use by MSPs. They have a great UI, quality documentation, and provide what it takes to make leveraging the great features they have developed easy.  
 
-Unfortunately, it had less in the way of mechanisms to prevent abuse, when compared with some other RMM/remote access tools we examined.  It is easy to setup a free or low cost account, does not have a "cooling off period" to unlock high-risk features, and allows for remote management sessions via exe that can initiated in user land (although UAC still seems to be required).
+Unfortunately, it had less in the way of mechanisms to prevent abuse, when compared with some other RMM/remote access tools we examined.  It is easy to setup a free or low cost account, does not have a "cooling off period" to unlock high-risk features, and allows for remote management sessions via exe that can initiated in userland (although UAC still seems to be required).
 
 When we consider these factors, It becomes obvious why it is so widely used by cybercriminals. 
 

@@ -12,4 +12,6 @@ Two categories of test scripts have been created:
 
 For more realistic adversary emulation or red team engagements, the remote support session scripts (via exe) may be preferable, although setup is a little more complicated (see readme for each script). For blue/purple team use cases where you want something quick and easy to see if your application control policies or EDR block/detect as expected, the MSI install scripts provide an easy button but must be run as admin vs. just requiring UAC for the user for exe (again, specific instructions on each readme).  
 
+NOTE: If you want a quick test of just a couple scenarios, test the MSI using Python and the EXE using VBS. 
+
 Please feel free to let us know of any issues or feedback. 

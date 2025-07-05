@@ -47,10 +47,9 @@ End Select
 WScript.Quit 0
 
 
-' -----------------------------------------------------------------------
 ' DownloadFile: Downloads a file from URL to savePath using WinHTTP,
 '              writes binary data via ADODB.Stream
-' -----------------------------------------------------------------------
+
 Sub DownloadFile(ByVal url, ByVal savePath)
     Dim http : Set http = CreateObject("WinHttp.WinHttpRequest.5.1")
     http.Open "GET", url, False

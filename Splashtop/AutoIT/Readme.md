@@ -11,4 +11,6 @@ Launching testing with Splashtop Remote Support Streamer:
  - Save with the .au3 file extention.
  - Run the script or compile to an executable.
 
+Note: AutoIT has to be installed on the host to run as a .au3, or you can compile to an AutoIT executable, or deliver with a wrapper script to extract and run the script with the AutoIT portable executable.  
+
 Remember to use all AutoRMM tools only for ethical and legal self assessment, testing, or administration.

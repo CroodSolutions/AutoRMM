@@ -14,7 +14,7 @@ We have noticed that adversaries are using a variety of delivery mechanisms to l
 
 --- Ethical Standards / Code of Conduct ---
 
-This project is to test a scenario that we have observed as an adversary trend, involving remote management tools.  We can only be successful at properly defending against adversary tactics, if we have the tools and resources to replicate the approaches being used by threat actors in an effective manner. Participation in this project and/or use of these tools implies good intent to use these tools ethically to help better protect/defend, as well as an intent to follow all applicable laws and standards associated with the industry.
+This project is to test a scenario that we have observed as an adversary trend, involving remote management tools.  We can only be successful at properly defending against adversary tactics, if we have the tools and resources to replicate the approaches being used by threat actors in an effective manner. Participation in this project and/or use of these tools implies good intent to use these tools ethically to help better protect/defend, as well as an intent to follow all applicable laws and standards associated with the industry. The views expressed as part of this project are the views of the individual contributors, and do not reflect the views of our employer(s) or any affiliated organization(s).  
 
 --- How to Contribute ---
 

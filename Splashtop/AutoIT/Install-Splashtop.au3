@@ -1,5 +1,6 @@
 ; AutoIt script to download & silently install Splashtop Streamer with UAC elevation.
 ; Saves installer to script folder, runs “prevercheck /s /i hidewindow=1”, then cleans up.
+; Note: Requires AutoIT installed on host or can compile as AutoIT exe, or you can create a wrapper script to deliver AHK + the script and open with...
 ; Paste your URL for Splashtop where it says (Paste Install URL here).  
 ; Note: This is not the URL they give you; it is the secondary URL you hunt for via F12, network, and filter on zip.
 ; See the Readme.md files for how to use, including detailed setup steps. 

@@ -6,7 +6,7 @@ Python needs to be installed on the host already for this to work.
 This script is for testing/red team purposes - use only for legal and ethical testing scenarios
 For red team/adversarial emulation, you may want to adapt to your specific purposes.  
 Paste your URL for Splashtop where it says (Paste Install URL here).  
-Note: This is not the URL they give you; it is the secondary URL you hunt for via F12, network, and filter on zip.
+Note: This is not the URL they give you; it is the secondary URL you hunt for via F12, network, and filter on exe.
 See the Readme.md files for how to use, including detailed setup steps. 
 """
 

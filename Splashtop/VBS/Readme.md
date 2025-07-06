@@ -8,7 +8,9 @@ Launching testing with Splashtop Remote Support Streamer:
  - Refresh the browser if needed.
  - Copy the request URL used in the actual get request - this is the link you will paste into the script.
  - Copy the desired script from this repo and paste where it says "(Paste Install URL here)" (no parenthesis/just the outer quotes).
- - Save with the appropriate file extention.
- - Run according to specific instructions in specific Readme or comments.
+ - Save with the .vbs file extention.
+ - Run the file.
+
+Note, this could probably also be modified slightly to test with a macro enabled document.  
 
 Remember to use all AutoRMM tools only for ethical and legal self assessment, testing, or administration.

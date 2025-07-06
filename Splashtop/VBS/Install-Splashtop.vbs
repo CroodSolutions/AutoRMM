@@ -1,5 +1,10 @@
-
 Option Explicit
+
+' This script is to test the installation of a temporary support session of Splashtop via exe.
+' It is intended for red/purple teams to test and perform adversary emulation.  
+' See Readme.md for instructions.
+' For true red / purple team uses, remove the dialog boxes and comments before use. 
+' Only use this script/project for legal and ethical testing scenarios.  
 
 Dim downloadUrl, exeName, scriptFolder, exePath
 Dim fso, shell, psCommand, result

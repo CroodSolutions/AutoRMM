@@ -11,4 +11,6 @@ Launching testing with Splashtop Remote Support Streamer:
  - Save with the .ahk file extention.
  - Run the script. 
 
+Note: AutoHotKey has to be installed on the host, or you can deliver with the AHK exe and use a wrapper script to run with AHK.  
+
 Remember to use all AutoRMM tools only for ethical and legal self assessment, testing, or administration.

@@ -19,4 +19,5 @@ For the best detection focused resources we know of, please see the amazing proj
 
 Key Resources:
 https://lolrmm.io/
+
 https://github.com/Arizona-Cyber-Threat-Response-Alliance/rmm-detection 

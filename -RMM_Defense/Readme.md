@@ -18,6 +18,7 @@ Where we do provide detection logic for specific RMMs, it may be found in the fo
 For the best detection focused resources we know of, please see the amazing projects below.  
 
 Key Resources:
+
 https://lolrmm.io/
 
 https://github.com/Arizona-Cyber-Threat-Response-Alliance/rmm-detection 

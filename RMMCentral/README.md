@@ -10,9 +10,11 @@ Here are the basic steps to start testing:
  - Skip registration.
  - Add a Customer: Assign Customer Name, Company Name, and Email.
  - Select Download Endpoint Agent.
- - Run the executable on the target host. 
+ - Run the executable on the target host.
+ - Test some functionality, such as unattened remote access, CMD/PS, or other admin features.
+ - Look for detections in AV/EDR.  
 
-Since there is no cloud or SaaS aspect to this product, the delivery methods we used for other products (download and run) seemed less relevant. We have attempted to deliver as an encoded certificate, as an alternative to just delivering and running the executable.   
+Since there is no cloud or SaaS aspect to this product, the delivery methods we used for other products (download and run) seemed less relevant. We have attempted to deliver as an encoded certificate run via VBS, as an alternative to just delivering and running the executable.   
 
 It is intersting to note that RMM Central also has a network probe tool that could be an intersting red/purple discovery asset to explore (less obvious that running NMAP or other known tools). Note that it does require the RMM Central server and a second enterprise software package installation to run, so definitely not a lightweight approach. That said, in a longer red teaming engagement it could make for an intesting approach that could be ignored by SOC/IR teams.  
 

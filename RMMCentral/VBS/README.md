@@ -14,4 +14,6 @@ Here are the basic steps to start testing:
  - Test some functionality, such as unattened remote access, CMD/PS, or other admin features.
  - Look for detections in AV/EDR.  
 
+One delivery idea may be to try having a user download and mount a vmdk with both files prestaged.  
+
 Remember to only use AutoRMM tools for red/purple team testing, in accordance with all laws and ethical standards.  

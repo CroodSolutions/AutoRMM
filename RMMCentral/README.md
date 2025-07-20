@@ -9,6 +9,7 @@ Here are the basic steps to start testing:
  - Follow the prompts.
  - Skip registration.
  - Add a Customer: Assign Customer Name, Company Name, and Email.
+ - Under Agent, Agent Settings, uncheck “Show Agent Icon in the System Tray”
  - Select Download Endpoint Agent.
  - Run the executable on the target host.
  - Test some functionality, such as unattened remote access, CMD/PS, or other admin features.

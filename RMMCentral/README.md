@@ -1,6 +1,6 @@
 Manage Engine RMM Central seems to be a robust and mature product, from a remote management perspective. It had a solid interface and was easy to setup and use. They do not have a SaaS offering, so it does require installation and configuration of their management server. 
 
-Setup and installation was easy, and did not require registration, to start a 30-day free trial. This makes it easy to setup a local test of the software.  
+Setup and installation was easy and did not require registration to start a 30-day free trial. This makes it simple to setup a local test of the software.  
 
 RMM Central can be downloaded at: https://www.manageengine.com/remote-monitoring-management/download.html?pos=Downloads&loc=msps
 

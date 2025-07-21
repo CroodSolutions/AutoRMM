@@ -12,7 +12,7 @@ This set of scripts is to deliver an executable as a certutil encoded payload, w
  - Save doc.
  - Test your scenario.
 
-# Key points:
+# Key points
  - This will only support small payloads, so an AutoIT/AHK compiled exe from AutoRMM will be fine, and some of the more reasonable sized RMM direct EXEs could work also (exactl limites not well defined).
  - Macro enabled documents are considered sus by many security products, and sandboxing solutions seem to catch this with ease, so milage may vary.
 

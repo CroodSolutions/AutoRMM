@@ -33,3 +33,8 @@ This is a red team testing script for a weaponized document delivery of RMM Cent
 # Ethical Considerations 
 
 These tools are made to help raise awarness about some serious security gaps adversaries are exploiting in the wild, by providing penetration testing / red team resources. Use of these tools assume an ethical blue/purple/red team scenario where you are using these tools to ethically test your security posture and controls. We do not support or endorse malicious or criminal use of assessment, security, or administrative tools.
+
+
+
+https://github.com/user-attachments/assets/f06517a2-9842-499c-b350-7bf44c06f955
+

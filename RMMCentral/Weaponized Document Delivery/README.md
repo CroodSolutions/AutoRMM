@@ -5,7 +5,8 @@ This is a red team testing script for a weaponized document delivery of RMM Cent
 # Setup Steps
  - Create your lure document (should include some pretext for clicking "Enable Content" for realistic testing (save as .docm). 
  - Download the RMM Central management/server software at this link:
-   https://www.manageengine.com/remote-monitoring-management/download.html?pos=Downloads&loc=msps
+
+    https://www.manageengine.com/remote-monitoring-management/download.html?pos=Downloads&loc=msps
  - Follow the prompts.
  - Skip registration.
  - Add a Customer: Assign Customer Name, Company Name, and Email.

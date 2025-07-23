@@ -4,22 +4,30 @@ This is a red team testing script for a weaponized document delivery of RMM Cent
 
 # Setup Steps
  - Create your lure document (should include some pretext for clicking "Enable Content" for realistic testing (save as .docm). 
- - Download the RMM Central management/server software at this link: https://www.manageengine.com/remote-monitoring-management/download.html?pos=Downloads&loc=msps
+ - Download the RMM Central management/server software at this link:
+   https://www.manageengine.com/remote-monitoring-management/download.html?pos=Downloads&loc=msps
  - Follow the prompts.
  - Skip registration.
  - Add a Customer: Assign Customer Name, Company Name, and Email.
  - Under Agent, Agent Settings, uncheck “Show Agent Icon in the System Tray”
  - Select Download Endpoint Agent.
+ - Stage the agent in a location that can be reached from the target host, to serve the file up via http.
+ - If you use a cloud service, note that the download link will almost never be the real link.
+ - To resolve this click through the usual download steps with debug (F12) enabled and set to networking.
+ - Usually it is easy enough to filter on file extention, but sometimes it is easier to find with no filters.
+ - Copy the http/s download URL from where you staged the RMM install file and paste it into the script.  
  - Launch VBA Editor via the Developer tab or ALT+F11.
- - Paste LaunchText.txt under Normal > Microsoft Word Objects > ThisDocument.
- - Then, paste Delivery.txt into Normal > Modules > Module1.
+ - Paste Normal_ThisDocument.txt under Normal > Microsoft Word Objects > ThisDocument.
+ - Then, paste Module1_RetrieveFile.txt into Normal > Modules > Module1.
  - Save/close VBA editor.
  - Save doc.
  - Test your scenario.
 
 # Key points
- - This will only support small payloads, so an AutoIT/AHK compiled exe from AutoRMM will be fine, and some of the more reasonable sized RMM direct EXEs could work also (exactl limites not well defined).
+ - Large install files such as RMM Central may take time to download and launch, making it fine for purple team testing, but could cause some sporadic abandoned deliveries for red team engagements.
+ - This approach works best for red teams when the delivery payload is small or there is a pretext to make the user expect the document to take time to load. 
  - Macro enabled documents are considered sus by many security products, and sandboxing solutions seem to catch this with ease, so milage may vary.
+ - Combining tactics, such as delivering the document via vmdk, password protected zip, or other creative means may help red teams.  
 
 # Ethical Considerations 
 

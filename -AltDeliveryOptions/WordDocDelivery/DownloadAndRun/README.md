@@ -3,7 +3,7 @@
 This is a red team testing script for a weaponized document delivery of any AutoRMM, AutoPwnKey, or Beaconator payload that can be delivered as an executable. Minimal adaptation of this script could make it work for MSI or other file types. The document opens causing the ThisDocument script launch Module1 'Retrieve File' that in turn downloads a file from a staging location, writes it to disk, and then runs it with the silent flag. 
 
 # Setup Steps
- - Create your lure document (should include some pretext for clicking "Enable Content" for realistic testing (save as .docm). 
+ - Create your lure document - should include some pretext for clicking "Enable Content" for realistic testing (save as .docm). 
  - Stage your payload in accordance with the appropriate testing framework for your testing (e.g., AutoRMM, AutoPwnKey, or Beaconator).
  - Payload should be staged with an absolute link the script can reach (sometimes there are http pages you need to click through, so use debug to get through these to the real link). 
  - Launch VBA Editor via the Developer tab or ALT+F11.

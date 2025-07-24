@@ -30,9 +30,10 @@ We welcome and encourage contributions, participation, and feedback - as long as
 
 Key contributors, both directly and because we are using building blocks from prior work:
 
-- [christian-taillon](https://github.com/christian-taillon)
 - [shammahwoods](https://github.com/shammahwoods) 
 - [BiniamGebrehiwot1](https://github.com/BiniamGebrehiwot1)
+- Jordan Mastel 
+- [christian-taillon](https://github.com/christian-taillon)
 - [Duncan4264](https://github.com/Duncan4264)
 - [flawdC0de](https://github.com/flawdC0de)
 - [Kitsune-Sec](https://github.com/Kitsune-Sec)

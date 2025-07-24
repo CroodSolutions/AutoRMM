@@ -32,7 +32,8 @@ Key contributors, both directly and because we are using building blocks from pr
 
 - [shammahwoods](https://github.com/shammahwoods) 
 - [BiniamGebrehiwot1](https://github.com/BiniamGebrehiwot1)
-- Jordan Mastel 
+- Jordan Mastel
+- lolrmm.io
 - [christian-taillon](https://github.com/christian-taillon)
 - [Duncan4264](https://github.com/Duncan4264)
 - [flawdC0de](https://github.com/flawdC0de)

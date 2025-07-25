@@ -12,9 +12,11 @@ Our findings fell into a few categories:
 Products with immediate unverified free trial and significant abuse potential:
  - ESET Protect
  - Trend Vision One
+
 Limited abuse potential and easy free trial was idenfified with a few additional products (contain only):
  - Elastic (contain and light recon)
  - Huntress (contain only)
+ - Cisco Amp (was able to install and kill elastic, without alerting. 
 
 Note: There are many EDR vendors that have not yet responed to requests for a free trial. This could be because they have solid verification processes, but it could also just be that we did not hit the right response options, to get a trial provisioned quickly (e.g., small org size, or proton mail screened us out).  
 

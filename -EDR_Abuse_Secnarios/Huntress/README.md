@@ -1,3 +1,1 @@
-# Looking Beyond RMM
-
-As we were working on AutoRMM, BushidoToken pointed out that EDR products were being used in a similar manner.  
+While Huntress provided a trial right away without verification, it did not allow for any high risk capabilities we could find, with the one exception of being able to contain a host. As mentioned in the main readme for EDR abuse, containment is a relatively low risk, but can be used in theory to blind other EDR products (such as the one they legitimately use, if a competing product is deployed via an adversary using a free trial).  

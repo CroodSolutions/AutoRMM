@@ -1,5 +1,5 @@
 # Introduction
-Based upon the recent post by @BushidoToken indicating that threat actors were actively leveraging EDR/AV products as part of their attack cycle, we did some testing to see what capabilities may be readily available to attackers using EDR tools for nepharious purposes. This testing aligned closely with the work on RMM we were doing already. After all, an EDR often includes remediation and remote management as a core capability.  
+Based upon the recent post by @BushidoToken indicating that threat actors were actively leveraging EDR/AV products as part of their attack cycle, we did some testing to see what capabilities may be readily available to attackers using EDR tools for nefarious purposes. This testing aligned closely with the work on RMM we were doing already. After all, an EDR often includes remediation and remote management as a core capability.  
 
 Our (@ShammahWoods w/ @CroodSolutions) initial testing revealed that multiple EDR/AV products allowed for free trials providing a high potential for abuse, including various capabilities including remote shell, device containment, among other capabilities.
 

@@ -1,7 +1,7 @@
 # Introduction
 Based upon the recent post by BushidoToken indicating that threat actors were actively leveraging EDR/AV products as part of their attack cycle, we did some testing to see what capabilities may be readily available to attackers using EDR tools for nepharious purposes. This testing aligned closely with the work on RMM we were doing already. After all, an EDR often includes remediation and remote management as a core capability.  
 
-Our (ShammahWoods w/ CroodSolutions) initial testing revealed that multiple EDR/AV products allowed for free trials providing a high potential for abuse, including various capabilities including remote shell, device containment, among other capabilities with abuse potential.  
+Our (ShammahWoods w/ CroodSolutions) initial testing revealed that multiple EDR/AV products allowed for free trials providing a high potential for abuse, including various capabilities including remote shell, device containment, among other capabilities.
 
 The most curious capability we observed, was the ability to use one EDR to kill another EDR (free version vs installed), along with less serious, but also concerning capability to hijack the reporting of an EDR/AV by installing an attacker-controlled trial of the same EDR/AV that is already running (so far we have only tested the second scenario with ESET, but it probably works for at least some other products).  
 

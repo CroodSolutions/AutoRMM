@@ -1,10 +1,6 @@
 # Summary
 
------
-
 ESET allows for instantaneous free trial environments with full featured agents. This platform seemed initially high in abuse potential due to the features available, such as command execution, host isolation, and even full device encryption! These options were tested with other EDRs installed, and did not generate detections.
-
------
 
 # Testing Steps
 
@@ -17,8 +13,6 @@ ESET allows for instantaneous free trial environments with full featured agents.
 - Brick the device by going to Tasks > New Task > Client Task and selecting a task from the drop down, such as "Isolate Computer From Network"
 - Then click continue > finish > add trigger, and set the target machine.
 - Click Finish and the task will be sent to the target.
-
------
 
 # EDR Cannibalism
 

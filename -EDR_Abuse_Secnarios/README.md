@@ -52,13 +52,13 @@ Here is a quick reporting of notable capabilities observed, for each product tes
 # Initial Findings
 
 Products with immediate unverified free trial and significant abuse potential:
+ - Cisco
  - ESET Protect
  - Trend Vision One
 
 Limited abuse potential and easy free trial was idenfified with a few additional products (contain only):
  - Elastic (contain and light recon)
  - Huntress (contain only - it was clear a lot of thought went into limiting abuse potential)
- - Cisco Amp (was able to install and kill elastic, without alerting. 
 
 # Contain Host or Kill Process (who cares?)
 

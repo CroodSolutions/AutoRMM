@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# This is an sh script to download and run a pkg for RMM abuse testing.
+# This is an sh script to download and run a pkg for RMM abuse testing, for testing RMM or other abuse on MacOS. 
 # Note that sometimes just running the dmg or pkg is probably more useful, but sometimes it is fun to try different things.
 # Change file extension or name, etc. as needed.
 # Use only for legal and ethical testing purposes. 

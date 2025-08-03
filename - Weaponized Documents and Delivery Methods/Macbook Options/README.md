@@ -24,6 +24,6 @@ That said, just for fun we have provided a .sh script that will reach out to a U
  - Deliver as Application.
 
 Note that this process should work for a wide range of payload types, assuming properly signed and registered/approved. For code signing Apple applications, you need a $99 developer subscription + following the process to create a code signing certificate and then register your application. 
-(again, a lot I do not know about the registration aspect, since still testing that aspect)
+(again, a lot I do not know about the registration aspect, since still testing that part)
 
 Footnote: It was possible to use VBA to extract a hidden payload from the document and write it to disk with a filename and extention of choice, but since I could not figure out a good way to run it from VBA, it seemed irrelevant unless combined with a way to escape the sandbox and run something.

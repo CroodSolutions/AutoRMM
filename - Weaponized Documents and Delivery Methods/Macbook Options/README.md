@@ -10,7 +10,9 @@ Simply put, Apple has taken several steps for MacOS that make it harder to deliv
 
 This is where RMM is interesting. Since these tools have a valid cert and are trusted as legitimate software that people expect to seamlessly deploy from a customer tenant, installing RMM tools seems like a lower bar to reach than malware. It is like a RAT with a trust hierarchy established and maintained by the Remote Management tool vendor.   
 
-Just for fun, we have provided a .sh script that will reach out to a URL, download a file, and run it on MacOS. If an admin password is required, the user receives a prompt. Short of chmod +x and then running from terminal, here are steps that probably could make it more portable, but only assuming you have a valid code signing certificate and register your version of the script with apple:
+Since many RMM tools provide a DMG or PKG with a valid cert and everything you need to install / deploy on MacOS, there is little need to do much else.
+
+That said, just for fun we have provided a .sh script that will reach out to a URL, download a file, and run it on MacOS. If an admin password is required, the user receives a prompt. Short of chmod +x and then running from terminal, here are steps that probably could make it more portable, but only assuming you have a valid code signing certificate and register your version of the script with apple:
  - Update the script to include your download link (remember you may want to use F12/network to find the real download link).
  - Launch Automator on a MacBook:
  - Select New Document.

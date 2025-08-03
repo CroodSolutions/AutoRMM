@@ -29,3 +29,5 @@ Note that this process should work for a wide range of payload types, assuming p
 (again, a lot I do not know about the registration aspect, since still testing that part)
 
 Footnote: It was possible to use VBA to extract a hidden payload from the document and write it to disk with a filename and extention of choice, but since I could not figure out a good way to run it from VBA, it seemed irrelevant unless combined with a way to escape the sandbox and run something.
+
+Key point: Only use red team tools or ideas in the scope of ethical and legal testing to improve defensive posture.

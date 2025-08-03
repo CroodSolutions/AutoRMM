@@ -6,7 +6,7 @@ There is a trick still in Word where you can press Command+Fn+F9 and a set of br
 
 It is easy enough to create malicious sh scripts, apps, or DMGs and they will run just fine on the host they are created on. Move the App or DMG to another host without signing and registering it, and it is untrusted and labeled as potential malware right away. Languages such as Go and Python also work, but most scenarios with Go/Python/sh require chmod +x, followed by ./ from terminal. Having to run from terminal with multiple steps is not the easiest Social Engineering bar for a red teamer, compared with Windows where you can open a document and at worst maybe get a UAC prompt.
 
-Simply put, Apple has taken several steps for MacBook that make it harder to deliver malware to hosts, compared with Microsoft Windows, all things equal. 
+Simply put, Apple has taken several steps for MacOS that make it harder to deliver malware to hosts, compared with Microsoft Windows, all things considered.
 
 This is where RMM is interesting. Since these tools have a valid cert and trusted as legitimate software that people expect to seamlessly deploy from a customer tenant, installing RMM tools seems like a lower bar to reach than malware. It is like a RAT with a trust hierarchy established and maintained by the Remote Management tool vendor.   
 

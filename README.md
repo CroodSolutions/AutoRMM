@@ -39,6 +39,9 @@ Key contributors, both directly and because we are using building blocks from pr
 - [flawdC0de](https://github.com/flawdC0de)
 - [Kitsune-Sec](https://github.com/Kitsune-Sec)
 - [AnuraTheAmphibian](https://github.com/AnuraTheAmphibian)
+- Matt Clark
+- Brandon Stevens
+- Daniel Addington 
 
 --- Key Resources / See Also ---
 

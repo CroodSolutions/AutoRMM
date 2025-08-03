@@ -12,7 +12,11 @@ This is where RMM is interesting. Since these tools have a valid cert and are tr
 
 Just for fun, we have provided a .sh script that will reach out to a URL, download a file, and run it on MacOS. If an admin password is required, the user receives a prompt. Short of chmod +x and then running from terminal, here are steps that probably could make it more portable, but only assuming you have a valid code signing certificate and register your version of the script with apple:
  - Update the script to include your download link (remember you may want to use F12/network to find the real download link).
- - Launch Automator on a MacBook and paste in the script.
+ - Launch Automator on a MacBook:
+ - Select New Document.
+ - Select Application.
+ - Select Utilities and Run Shell Script.
+ - Paste in the script from this repo (DownloadAndInstall.sh).
  - Go to File, Export, and select a valid code signing certificate.
  - Register your application with Apple (have read about this process, but have not tested this step yet).
  - Deliver as Application.

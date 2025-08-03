@@ -1,4 +1,6 @@
-An interesting implication of RMM abuse is that Apple introduces several obstacles to delivering malware to MacBook devices, when compared to Windows. For Microsoft Windows, you can simply create something malicious, and if it is not detected as bad and if application control is not in place, it will run. Of course, there is userland vs. admin and Mark-of-the-Web/UAC to contend with there. Still, the bar to get some sort of code to run is often quite low. 
+An interesting implication of RMM abuse is that Apple introduces several obstacles to delivering malware to MacBook devices, when compared to Windows. Is RMM a cheatcode to get around a few of these barriers?
+
+For Microsoft Windows, you can simply create something malicious, and if it is not detected as bad and if application control is not in place, it will run. Of course, there is userland vs. admin and Mark-of-the-Web/UAC to contend with there. Still, the bar to get some sort of code to run is often quite low. 
 
 For weaponized office documents they seem to run in a sandbox on MacBook, and moving a docm removes the "This Document" trigger that runs on-open; moreover, all of the really interesting MacScript command capabilities have been deprecated within VBA (I was able to run calc, but VBA could not download a file from the web, establish a network connection, or run anything). 
 
